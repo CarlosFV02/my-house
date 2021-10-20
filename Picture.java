@@ -92,4 +92,12 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    /**
+     * Hace que el sol baje simulando un atardecer
+     */
+    public void atardecer()
+    {
+        sun.slowMoveVertical(100);
+    }
 }
